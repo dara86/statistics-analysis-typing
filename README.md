@@ -1,43 +1,78 @@
-# Man vs. Keyboard: Statistical Analysis of Human Performance
-
+# Data Science Portfolio
 **Author:** Darragh Coyle
-**Date:** December 2025  
-**Tools:** R, Linear Regression, Bayesian Inference, Hypothesis Testing
+**Focus:** Statistical Inference, , and Data Visualization  
+**Contact:** [Your LinkedIn Profile URL] | [Your Email]
 
 ## 📄 [Download Full Statistical Report (PDF)](./report.pdf)
 
----
+# ⌨️ Man vs. Keyboard: A Statistical Audit of Human Performance
 
-## Project Overview
-[cite_start]This project applies frequentist and Bayesian statistical methods to analyze the learning curve of typing speed and accuracy over a 4-week longitudinal study ($N=30$)[cite: 18]. The study investigates the impact of environmental variables (caffeine, audio stimuli, location) on motor performance, challenging common assumptions about self-improvement and the "practice makes perfect" adage.
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Tools](https://img.shields.io/badge/Tools-R%20|%20Bayesian%20Inference%20|%20Regression-blue)
+![Data](https://img.shields.io/badge/Data-Original%20(N=30)-green)
 
-## Key Statistical Findings
+> **The Question:** Does "practice make perfect," or do environmental factors like caffeine and music play a larger role in motor learning efficiency?
 
-### 1. The "Practice" Myth (Linear Regression)
-* **Hypothesis:** $H_1: \beta_1 \neq 0$ (Speed changes significantly over time).
-* [cite_start]**Result:** While a statistically significant positive trend was observed ($p=0.038$), the model yielded a low Adjusted $R^2$ of **0.113**[cite: 183, 190].
-* **Inference:** Simple repetition explains only **11.3%** of the variance in speed improvement. [cite_start]The remaining 88.7% is likely attributed to latent variables such as ergonomic technique corrections (e.g., stabilizing hand placement) rather than raw repetition[cite: 194].
-
-### 2. The "Mozart Effect" Debunked (Bayesian Inference)
-* [cite_start]**Method:** Utilized Bayes' Theorem to update the prior belief ($P(H)=0.5$) that music improves focus[cite: 457].
-* [cite_start]**Result:** The posterior probability $P(H|D)$ dropped to **41.7%**[cite: 504].
-* [cite_start]**Inference:** Contrary to the prior belief, the evidence suggests that audio stimuli act as a performance inhibitor, reducing the probability of a "High WPM" run by **8.3%**[cite: 504].
-
-### 3. Environmental Impact (Fisher's Exact Test)
-* **Method:** Analyzed the association between Location (Public vs. Private) and Time of Day.
-* [cite_start]**Result:** A significant association was found ($OR=0.167$, $p=0.049$)[cite: 418, 429].
-* [cite_start]**Inference:** While the data suggests a strict separation of work environments, qualitative analysis reveals this is confounded by the operating hours of public spaces (libraries/cafés) rather than purely disciplined choice[cite: 432].
+## 📄 [Read the Full Statistical Report (PDF)](./report.pdf)
 
 ---
 
-## 💻 R Code Snippets
-Below are the core statistical models used in the analysis.
+## 1. Executive Summary & Business Value
+**Objective:** To optimize personal productivity and typing efficiency by identifying statistically significant performance drivers.
+**Context:** In a data science career involving heavy keyboard usage, even a marginal increase in typing efficiency or accuracy translates to significant long-term time savings.
+**Key Result:** Contrary to popular belief, the "Mozart Effect" was debunked for my workflow; listening to music **decreased** the probability of a high-performance session by **8.3%**.
 
-### Linear Regression Model
-Determining if trial number predicts WPM score.
-```r
-# Linear Model: WPM as a function of Trial Number
-lm_speed <- lm(wpm ~ trial, data = df)
-summary(lm_speed)
+---
 
-# Result: p-value = 0.03875, Adj R-squared = 0.1132
+## 2. Data Collection (Originality)
+*Unlike standard datasets (e.g., Titanic, Iris), this project utilizes a novel, self-generated dataset.*
+* **Source:** Longitudinal study over 4 weeks ($N=30$ trials).
+* **Tools:** TypingTest.com (Data Generation), Excel/CSV (Data Entry).
+* **Variables:**
+    * **Performance:** WPM (Words Per Minute), Accuracy (%).
+    * **Environment:** Caffeine (Y/N), Music (Y/N), Time of Day, Location (Public/Private).
+
+---
+
+## 3. Methodology (Rigor)
+This analysis moves beyond simple descriptive statistics (averages) to inferential statistical modeling.
+
+| Question | Statistical Test | Justification |
+| :--- | :--- | :--- |
+| **Does practice predict speed?** | `Linear Regression` | Modeled the learning curve to quantify exact WPM gain per trial. |
+| **Does music help focus?** | `Bayesian Inference` | Updated prior beliefs ($P=0.5$) with observed data to calculate posterior probability. |
+| **Do I work better in public?** | `Fisher's Exact Test` | Used due to small sample sizes in the contingency table to test independence. |
+
+---
+
+## 4. Key Findings & Actionable Insights
+### 📉 The "Mozart Effect" is Negative
+Using Bayes' Theorem, I calculated the posterior probability of a successful run (WPM > Median) given music was playing:
+* **Prior Belief:** 50% chance of success.
+* **Posterior Probability:** **41.7%** chance of success.
+* **Action:** Deep work sessions requiring high precision should be done in silence.
+
+### 📉 Practice $\neq$ Improvement
+* **Result:** Linear regression showed a significant positive trend ($p=0.039$), but the $R^2$ was only **0.113**.
+* **Interpretation:** Repetition explains only 11% of the variance. 89% of improvement is likely driven by **technique correction** (ergonomics) rather than volume of practice.
+
+### 🏠 The "Public Workspace" Fallacy
+* **Result:** I am statistically more likely to work in public during the day ($OR=0.167$).
+* **Constraint:** This was identified as a confounding variable—libraries are closed at night, forcing private work, rather than a behavioral preference.
+
+---
+
+## 5. Visualizations
+*(See full report for detailed R-generated plots)*
+
+*Figure 1: Bayesian update showing the shift in probability when music is introduced.*
+
+---
+
+## 6. Reproducibility
+To verify these results or apply this methodology to your own data:
+
+1. **Load Data:**
+   ```r
+   df <- read.csv("data/typing_log.csv")
+
