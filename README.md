@@ -4,9 +4,13 @@
 
 ---
 ## Business Insights for Retail Company JCPenney - [Full Report (.pdf)](./jcp_report.pdf)
-
+![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
 
 ## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Full Report (.pdf)](./the_stats_report.pdf)
+![R](https://img.shields.io/badge/Language-R-276DC3)
 
 **Goal:** Take data from day-to-day life and use statistical techniques to get deeper insights into how I approach the task of self-improvement 
 
