@@ -3,7 +3,7 @@
 **Contact:** [LinkedIn](https://www.linkedin.com/in/darragh-coyle/) 
 
 ---
-## Business Insights for Retail Company JCPenney - [Full Report (.pdf)](./the_stats_report.pdf)
+## Business Insights for Retail Company JCPenney - [Full Report (.pdf)](./jcp_report.pdf)
 
 
 ## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Full Report (.pdf)](./the_stats_report.pdf)
