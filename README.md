@@ -29,6 +29,9 @@ Using <https://www.typingtest.com>, collected 30 observations over 4 weeks.
 <p align="center">
   <img src="./figures/bayesian_plot.png" alt="Bayesian Posterior Distribution" width="40%">
   <img src="./figures/linear_regression.png" alt="Bayesian Posterior Distribution" width="40%">
+   <img src="./figures/chi.png" alt="Bayesian Posterior Distribution" width="40%">
+   <img src="./figures/fisher.png" alt="Bayesian Posterior Distribution" width="40%">
+   <img src="./figures/t-test.png" alt="Bayesian Posterior Distribution" width="40%">
 </p>
 
 
