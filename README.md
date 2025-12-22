@@ -16,11 +16,11 @@
   <summary><strong>Click to expand/view report</strong></summary>
   <br>
 
-  <img src="figures/jcp_01.jpg" alt="Page 1" style="width: 60%; margin-bottom: 15px;">
-  <img src="figures/jcp_02.jpg" alt="Page 2" style="width: 60%; margin-bottom: 15px;">
-  <img src="figures/jcp_03.jpg" alt="Page 3" style="width: 60%; margin-bottom: 15px;">
-  <img src="figures/jcp_04.jpg" alt="Page 4" style="width: 60%; margin-bottom: 15px;">
-  <img src="figures/jcp_05.jpg" alt="Page 5" style="width: 60%; margin-bottom: 15px;">
+  <img src="figures/jcp_01.jpg" alt="Page 1" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_02.jpg" alt="Page 2" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_03.jpg" alt="Page 3" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_04.jpg" alt="Page 4" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_05.jpg" alt="Page 5" style="width: 100%; margin-bottom: 15px;">
 
 </details>
 
