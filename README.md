@@ -46,8 +46,11 @@ Using <https://www.typingtest.com>, collected 30 observations over 4 weeks.
     * **Environment:** Caffeine (Y/N), Music (Y/N), Time of Day, Location (Home, Library, Cafe).
       
 <br>
-**Statistics Used:** Linear regression, Welch's t-test, Chi-Squared test, Fisher's Exact Test, Bayes's Theorem  
+
+**Statistics Used:** Linear regression, Welch's t-test, Chi-Squared test, Fisher's Exact Test, Bayes's Theorem 
+
 <br>
+
 ### Statistics Preview
 
 
