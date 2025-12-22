@@ -10,14 +10,14 @@
 **Goal:** To showcase ability to understand and manipulate raw data and present insights so non-technical audiences can understand findings
 
 <details>
-<summary><strong>Click to expand/view full report</strong></summary>
-<br>
+  <summary><strong>Click to expand/view full report</strong></summary>
+  <br>
 
-![Page 1](figures/jcp_01.jpg)
-![Page 2](figures/jcp_02.jpg)
-![Page 3](figures/jcp_03.jpg)
-![Page 4](figures/jcp_04.jpg)
-![Page 5](figures/jcp_05.jpg)
+  <img src="figures/jcp_01.jpg" alt="Page 1" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_02.jpg" alt="Page 2" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_03.jpg" alt="Page 3" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_04.jpg" alt="Page 4" style="width: 100%; margin-bottom: 15px;">
+  <img src="figures/jcp_05.jpg" alt="Page 5" style="width: 100%; margin-bottom: 15px;">
 
 </details>
 
