@@ -38,7 +38,8 @@ Using <https://www.typingtest.com>, collected 30 observations over 4 weeks.
     * **Environment:** Caffeine (Y/N), Music (Y/N), Time of Day, Location (Home, Library, Cafe).
 
 
-### Statistics Overview
+### Statistics Preview
+
 
 | Question | Statistical Test | | 
 | :--- | :--- | :---| 
